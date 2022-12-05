@@ -1,0 +1,84 @@
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* fonts import */
+
+@font-face {
+  font-family: octinSportsRg;
+  src: url("./fonts/octinSportsRg.ttf");
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #d9afd9, #97d9e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.text {
+  font-size: 6rem !important;
+  font-family: verdana;
+  font-size: 12em;
+  font-weight: 700;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+    1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.container-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.show {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 0.5rem 0;
+  height: 2rem;
+
+  background-color: rgb(235, 235, 235);
+}
+h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.btn-addTask {
+  padding: 2px 8px;
+  font-size: 20px;
+  box-shadow: 0px 5px 5px #727272;
+}
+.input-addTask {
+  padding: 5px 155px;
+  outline-style: none;
+  text-align: center;
+  border: none;
+}
+.input-addTask:hover {
+  background-color: rgb(235, 235, 235);
+  border-style: none;
+  box-shadow: 0px 5px 5px #727272;
+}
+img {
+  width: 26px;
+}
+button {
+  border: none;
+}
